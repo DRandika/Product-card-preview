@@ -123,7 +123,6 @@
         justify-content: center;
         align-items: center;
         align-content: center;
-
     }
 
     .container {
@@ -136,7 +135,6 @@
         width: 40vw;
         background-color: hsl(0, 0%, 100%);
         border-radius: 16px;
-
     }
 
     .img-container {
@@ -149,91 +147,80 @@
     }
 
     .text-container {
+        height: 100%;
         flex: 50%;
-        width: 240px;
-        font-size: 14px;
-        height: 360px;
-        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly !important;
+        padding: 3rem;
     }
 
     .text-container h1 {
-
-        width: 160px;
         font-family: 'Fraunces', serif;
         font-weight: 700;
-        font-size: 23px;
-
-
+        font-size: 35px;
     }
 
     .category {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+        font-weight: 500;
         letter-spacing: 4px;
         color: hsl(233, 4%, 60%);
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .details {
-
-        width: 200px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         color: hsl(228, 12%, 48%);
         line-height: 1.2rem;
-        font-size: 12px;
-        margin-top: 1.2rem;
-        margin-bottom: 1rem;
-
+        font-size: 14px;
     }
 
     .price {
         display: flex;
         gap: 1rem;
-
-
     }
 
     .old-price {
-
         text-align: center;
         font-family: Montserrat, sans-serif;
         color: hsl(228, 12%, 48%);
         text-decoration: line-through;
-        font-size: 10px;
+        font-size: 14px;
         margin-top: 0.5rem;
-
     }
 
     .new-price {
-
         font-family: 'Fraunces', serif;
         font-weight: 700;
-        font-size: 25px;
+        font-size: 35px;
         color: hsl(158, 36%, 37%);
-
     }
 
     button {
-
         display: flex;
         justify-content: center;
         background-color: hsl(158, 36%, 37%);
+        align-items: center;
         border-radius: 10px;
         border: none;
         cursor: pointer;
-        width: 200px;
-        padding: 0.7rem 3rem 0.7rem 3rem;
+        width: 100%;
+        height: 50px;
         gap: 1rem;
         margin-top: 1.2rem;
-
     }
 
     .btn-p {
         color: hsl(0, 0%, 100%);
+        font-size: 14px;
+        font-weight: 700;
     }
 
-
+    .img-btn {
+        width: 14px;
+    }
 }
